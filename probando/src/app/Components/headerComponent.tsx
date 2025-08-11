@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { contextTrivia } from '../Context/ContextTrivia'
 
 
-export default function headerComponent() {
+export default function HeaderComponent() {
  const {puntajeAcumulado} = useContext(contextTrivia);
 
   return (
